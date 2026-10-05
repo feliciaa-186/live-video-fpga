@@ -1,0 +1,25 @@
+# Ignore Vivado project files and generated bitstreams
+*.xpr
+*.jou
+*.log
+*.pb
+*.wdb
+*.wcfg
+*.str
+*.zip
+.Xil/
+
+# Ignore generated runs and caching
+/project_*/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+
+# Keep only the raw source files, IP configurations, and constraints
+!*.v
+!*.sv
+!*.vhd
+!*.xdc
+!*.xci
